@@ -11,7 +11,7 @@ from tensorflow.keras.models import Model
 
 # 定数
 IMG_SIZE = 128
-DATASET_RAW = "/home/ikedo/hackathon_2025/tomato-test"
+DATASET_RAW = "/tomato-test"
 DATASET_LABELED = "dataset_labeled02/"
 N_CLUSTERS = 5
 N_COMPONENTS = 50
