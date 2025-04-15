@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # 画像の保存フォルダ（ベースディレクトリ）
-BASE_SAVE_DIR = "/home/ikedo/images"
+BASE_SAVE_DIR = "/images"
 os.makedirs(BASE_SAVE_DIR, exist_ok=True)
 
 # Chrome の WebDriver を自動セットアップ
