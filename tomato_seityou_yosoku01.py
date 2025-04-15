@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 # 定数
 IMG_SIZE = 128
 MODEL_PATH = "plant_growth_model.h5"
-image_path = "/home/ikedo/hackathon_2025/366.jpg"
+image_path = "******/366.jpg"
 
 # 成長段階の予測
 def predict_growth(image_path):
