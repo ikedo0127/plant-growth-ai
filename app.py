@@ -70,7 +70,7 @@ def predict():
         return jsonify({"error": "予測に失敗しました"}), 500
 
 if __name__ == "__main__":
-    app.run(debug=False, port=5001)
+    app.run(debug=False, port=****)
 
 
 # from flask import Flask, request, jsonify
